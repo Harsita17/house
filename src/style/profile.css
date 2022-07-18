@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.profileHead{
+    
+    background-color: #222629;
+    color: #86c232 !important;
+}
+.profileDetails{
+    background-color: #222629;
+    display: flex;
+    justify-content: space-evenly;
+}
+.profileImage{
+    margin-left: 130px;
+}
+.user{
+    display: flex;
+    justify-content: center !important;
+    background-color: #222629 !important;
+    border: none;
+    color: #61892f;
+    width: 30% !important;
+    margin-top: 110px !important;
+}
+.profileForm form input{
+    font-weight:400 ;
+    outline: 1px solid #61892f !important;
+    padding: 10px;
+    background-color: #222629 !important;
+    margin-bottom: 30px;
+}
+.profileForm  input,select,textarea{
+    color: #61892f;
+}
+.profileForm form label{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.logoutProfile{
+    
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: #222629;
+    color:#61892f !important;
+    border:1px solid #86c232;
+}
+.logoutProfile:hover{
+    background-color: #61892f;
+    border: 1px solid #86c232;
+    color: #222629 !important;
+}
+.profileListing{
+    background-color: #222629 !important;
+    height:100vh;
+}
+.link a{
+    color: #86c232;
+    font-size: 20px;
+    
+}

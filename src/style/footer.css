@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.footer{
+    background-color: #474b4f;
+}
+h6{
+    color:  #222629;
+    font-weight: bold;
+    
+}
+.icons{
+    display: flex;
+    background-color: #474b4f;
+    column-gap: 25px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    outline: 2px solid #86c232;
+    transition-property: outline-offset,outline-color,background-color;
+    transition-duration: 25%;
+
+}
+.icons p:hover{
+    outline-offset: 4px;
+    animation: shake .25s;
+}
+.instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%  );
+    outline-color: #a02d76;
+}
+.twitter:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+.linkedin:hover{
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+.github:hover{
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+@keyframes shake{
+    10%{transform: rotate(15 deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio:2){
+        .footer h6{
+            font-size: 1rem !important;
+        }
+        .icon{
+            height: 40px;
+            width: 40px;
+        }
+    }

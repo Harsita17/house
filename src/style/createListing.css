@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.listingForm{
+    background-color: #222629;
+    height: 150vh;
+}
+.listingForm input{
+    outline: 1px solid #61892f !important;
+    font-family: 'Varela Round', sans-serif !important;
+    background-color: #222629;
+    margin-bottom: 10px;
+}
+.listingForm form{
+    background-color: #222629 !important;
+    border:1px solid #61892f
+}
+.listingForm label{
+    color: #61892f;
+    font-weight: 500;
+}
+.listingForm textarea{
+    outline: 1px solid #61892f !important;
+    
+    background-color: #222629;
+    margin-bottom: 10px;
+}
+.listingForm  input,select,textarea{
+    color: #61892f;
+    font-family: 'Varela Round', sans-serif !important;
+}
+.listingForm input[type='radio']:checked{
+    background-color: #61892f !important;
+}
+.selectImage input{
+    background-color: #222629 !important;
+    
+}
+.listingForm input[type='file']::file-selector-button{
+    background-color: #61892f !important;
+}
+.create {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 500px !important;
+    background-color: #222629;
+    color:#61892f !important;
+    border:1px solid #86c232;
+    font-family: 'Varela Round', sans-serif !important;
+}
+.createListing:hover{
+    background-color: #61892f;
+    border: 1px solid #86c232;
+    color: #222629 !important;
+  }
+  .listingForm h3{
+    color: #86c232 !important;
+    font-family: 'Varela Round', sans-serif !important;
+  }

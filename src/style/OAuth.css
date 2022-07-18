@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.oath h6{
+    font-family:  'Varela Round', sans-serif !important;
+    color: #61892f;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.google{
+    color: #61892f;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #61892f;
+    background-color: #222629;
+    
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.Slider-img{
+    width: 100% !important;
+    height: 60vh !important;
+}
+.mySwipe h6{
+    background-color: #61892f !important;
+    color: #474b4f !important;
+    font-size: 16px;
+    width: 100%;
+
+}
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio:2){
+        .Slider-img{
+            width: 100% !important;
+            height: 52vh !important;
+        }
+    }

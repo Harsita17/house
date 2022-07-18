@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.signcontainer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 85vh;
+    width: 98.9vw;
+   
+    background:#222629 !important;
+  }
+  .cont1Sign{
+    margin-left: 10%;
+  }
+  .signcontainer img{
+    height: 500px !important;
+    width: 100%;
+    margin-top: 40PX;
+
+  }
+  
+  .cont2sign{
+    
+   padding-left: 300px !important;
+    margin-bottom: 20%;
+    margin-top: 15%;
+    /* border: 2px solid #61892f; */
+    border-radius: 5px;
+    padding: 40px;
+    width: 40%;
+    /* height: 690px; */
+    font-family:  'Varela Round', sans-serif !important;
+  }
+  .cont2sign h5{
+    font-size: 3rem;
+  }
+  .cont2sign form{
+    background-color: #222629 !important;
+    width: 70%;
+    /* height: 670px; */
+  }
+  .cont2sign form input{
+    outline: 1px solid #61892f !important;
+    padding: 10px;
+    background-color: #222629;
+    margin-bottom: 10px;
+  }
+  .cont2sign Form  input,select,textarea{
+    color: #61892f !important;
+}
+  .cont2sign form .head{
+    border-radius: 10px;
+    color: #86c232 !important;
+  }
+  .cont2sign form label{
+    color: #61892f;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .button1{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 380px;
+    background-color: #222629;
+    color:#61892f !important;
+    border:1px solid #86c232;
+  }
+  .button1:hover{
+    background-color: #61892f !important;
+    border: 1px solid #86c232 !important;
+    color: #222629 !important;
+  }
+  .show{
+    color: #61892f;
+    font-size: 1rem;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    font-weight: lighter;
+  }
+  .show a{
+    /* margin-left: 120px; */
+    color:#61892f;
+  }
+  .signup{
+    color: #61892f;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .signup a h6{
+    color: #61892f;
+    text-align: center;
+    text-decoration: none !important;
+  }
+  .signup a{
+    text-decoration: none;
+  }
+  .forgot a{
+    color: #61892f;
+    
+  }
+  .forgot{
+    margin-top: 10px;
+    font-weight: lighter;
+    
+  }
+  .or{
+    color: #61892f;
+    text-align: center;
+    font-weight: 1.3rem;
+  }
+
+  .radioContain{
+    display: flex;
+    padding: 3px;
+    
+  }
+  .radioContain input[type='radio']{
+    
+    
+    -webkit-transform: scale(0.6);
+
+  }
+  .radioContain  label{
+    font-size: small!important;
+  }
+  .radioContain input[type='radio']:checked{
+    background-color: #61892f !important;
+}

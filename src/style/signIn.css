@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.signcontainer {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 98.9vw;
+   
+    background:#222629 !important;
+  }
+  .cont1{
+    margin-left: 10%;
+    width: 30% !important;
+  }
+  .signcontainer img{
+    height: 300px !important;
+    width: 40%;
+    margin-top: 40PX;
+
+  }
+  
+  .cont2{
+    
+   
+    margin-bottom: 20%;
+    margin-top: 15%;
+    /* border: 2px solid #61892f; */
+    border-radius: 5px;
+    padding: 40px;
+    width: 50%;
+    /* height: 690px; */
+    font-family:  'Varela Round', sans-serif !important;
+  }
+  .cont2 h5{
+    font-size: 3rem;
+  }
+  .cont2 form{
+    background-color: #222629 !important;
+    width: 70%;
+    /* height: 670px; */
+  }
+  .cont2 form input{
+    outline: 1px solid #61892f !important;
+    padding: 10px;
+    background-color: #222629;
+    margin-bottom: 10px;
+  }
+  .cont2  input,select,textarea{
+    color: #61892f;
+}
+  .cont2 form .head{
+    border-radius: 10px;
+    color: #86c232 !important;
+  }
+  .cont2 form label{
+    color: #61892f;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .button{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 425px;
+    background-color: #222629;
+    color:#61892f !important;
+    border:1px solid #86c232;
+  }
+  .button:hover{
+    background-color: #61892f;
+    border: 1px solid #86c232;
+    color: #222629 !important;
+  }
+  .show{
+    color: #61892f;
+    font-size: 1rem;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    font-weight: lighter;
+  }
+  .show a{
+    /* margin-left: 120px; */
+    color:#61892f;
+  }
+  .signup{
+    color: #61892f;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .signup a {
+    color: #61892f;
+    text-align: center;
+    text-decoration: none !important;
+  }
+  .signup a{
+    text-decoration: none;
+  }
+  .forgot a{
+    color: #61892f;
+    
+  }
+  .forgot{
+    margin-top: 10px;
+    font-weight: lighter;
+    
+  }
+  .or{
+    color: #61892f;
+    text-align: center;
+    font-weight: 1.3rem;
+  }

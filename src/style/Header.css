@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.navbar{
+    font-family:  'Varela Round', sans-serif !important;
+    font-weight: bold;
+    background:#222629 !important;
+   
+}
+.navbar .navbar-brand{
+    color: #86c232 !important;
+
+}
+.navbar .navbar-toggler-icon{
+    color: #61892f !important;
+}
+.navbar button:focus{
+    color: #61892f;
+}
+.navbar .nav-link{
+    color: #61892f !important;
+}
+.navbar .nav-item a:hover{
+    color:#61892f !important;
+}
+.navbar .active{
+    font-weight: bold !important;
+    color: bisque !important;
+    
+}

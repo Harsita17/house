@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.card-container{
+   margin-top: 10px;
+    width: 800px !important;
+    background-color: #61892f !important;
+    /* padding: 10px !important; */
+}
+.item-1{
+    
+}
+.item-1 img{
+    height: 200px;
+    width: 90%;
+    border: 2px solid #474b4f;
+}
+.item-2{
+    margin-top: 10px;
+    color: #222629;
+}
+.item-2 h2{
+    font-weight: 600;
+}
+.deleteList{
+    margin-right: 290px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: #222629;
+    color:white !important;
+    border:1px solid white;
+}
+.editList{
+    
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: #222629;
+    color:#61892f !important;
+    border:1px solid #86c232;
+}
+.editList:hover{
+    background-color: #61892f;
+    border: 1px solid #86c232;
+    color: #222629 !important;
+}
+.deleteList:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #222629 !important;
+}
+.deleteEdit{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio:2){
+        .card-container{
+            border-right: none;
+            margin: 0px -40px;
+            height: 500px;
+            width: 10px;
+            margin-left:-25px;
+            margin-right: auto;
+            padding-right: 20rem;
+            background-color: red !important;
+        }
+       
+        .main{
+            width: 30px !important;
+           
+            margin: 0px -40px;
+        }
+        .head{
+            width: 10px;
+           padding: 0;
+        }
+        .item-1{
+            align-items: center;
+           border-right: none;
+        }
+        .item-1 img{
+            margin-left:430PX ;
+            width: 300px;
+            
+        }
+        .item-2{
+            
+            align-items: center;
+            margin-left: 430px;
+            
+        }
+
+        
+    }
